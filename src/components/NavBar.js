@@ -20,6 +20,19 @@ export class navbar extends Component {
         <li className="nav-item">
           <a className="nav-link" href="/"><b>About</b></a>
         </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <b>Categories</b>
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a className="dropdown-item" href="/">Sports</a></li>
+            <li><a className="dropdown-item" href="/">Politics</a></li>
+            <li><a className="dropdown-item" href="/">E-sports</a></li>
+            <li><a className="dropdown-item" href="/">Top 100 news of this week</a></li>
+            <li><a className="dropdown-item" href="/">Top 10 news of the day</a></li>
+
+          </ul>
+        </li>
         
        
       </ul>
